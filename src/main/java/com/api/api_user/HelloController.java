@@ -12,7 +12,7 @@ public class HelloController {
     @GetMapping(value = "Hello")
     public String Hello()
     {
-        return "Olá " + nome + ", você está alterando uma api através de uma pipeline";
+        return "Olá grande " + nome + ", você está alterando uma api através de uma pipeline";
     }
     @GetMapping(value = "Testing")
     public String Testing()
