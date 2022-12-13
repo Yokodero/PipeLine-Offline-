@@ -22,6 +22,7 @@ import lombok.AllArgsConstructor;
 @RequestMapping("/user")
 
 public class UserController {
+    
     UserRepository userRepository;
     @PostMapping(value = "inserir")
     public User saveUser(@RequestBody User user)
