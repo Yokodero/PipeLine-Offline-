@@ -1,2 +1,1 @@
-# PipeLine
-Depois a gente decide
+# PipeLine (OffLine)
